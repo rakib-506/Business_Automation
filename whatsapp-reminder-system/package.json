@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-reminder-system",
+  "version": "1.0.0",
+  "description": "Automatic WhatsApp expiry reminders driven by a Google Sheet",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check-setup": "node scripts/check-setup.js",
+    "test-send": "node scripts/test-send.js",
+    "simulate": "node scripts/simulate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
